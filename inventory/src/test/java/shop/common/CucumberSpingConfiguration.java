@@ -1,0 +1,9 @@
+package shop.common;
+
+import io.cucumber.spring.CucumberContextConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
+import shop.InventoryApplication;
+
+@CucumberContextConfiguration
+@SpringBootTest(classes = { InventoryApplication.class })
+public class CucumberSpingConfiguration {}
